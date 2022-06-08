@@ -38,3 +38,15 @@
   }
 }
 
+.ball-list {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.ball {
+  border: 3px solid greenyellow;
+  padding: 30px;
+  margin: 10px;
+
+}
