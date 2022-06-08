@@ -1,9 +1,14 @@
 import React from 'react';
+import CandyItem from './CandyItem';
 
 export default function CandiesList({ candies }) {
-  console.log(candies);
-  
+
   return (
-    <div>this is my CandiesList</div>
+    <div>{
+      candies.map((candy, i) => <CandyItem 
+        candy={candy} key={candy + i} />)
+      
+    }
+    </div>
   );
 }

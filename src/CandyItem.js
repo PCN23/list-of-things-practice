@@ -1,8 +1,10 @@
 import React from 'react';
 
-export default function CandyItem() {
+export default function CandyItem({ candy }) {
   return (
-    <div>This is my CandyItem</div>
+    <div>
+      {candy}
+    </div>
   );
 }
 
