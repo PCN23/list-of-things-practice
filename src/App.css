@@ -50,3 +50,15 @@
   margin: 10px;
 
 }
+.cars-list {
+  display: flex;
+  flex-wrap: flex;
+  text-align: center;
+}
+
+.cars-item {
+  border: 3px solid greenyellow;
+  padding: 30px;
+  margin: 10px;
+
+}
