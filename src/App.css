@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration-color: white;
 }
 
 .App-logo {
@@ -35,4 +37,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ball-list {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.ball {
+  border: 3px solid greenyellow;
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 26px 5px rgba(0,0,0,0.27);
+  padding: 30px;
+  margin: 10px;
+
+}
+.cars-list {
+  display: flex;
+  flex-wrap: flex;
+  text-align: center;
+}
+
+.cars-item {
+  border: 3px solid rgb(255, 57, 47);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 26px 5px rgba(0,0,0,0.27);
+  padding: 30px;
+  margin: 10px;
+
+}
+
+.fruits-list {
+  display: flex;
+  flex-wrap: flex;
+  text-align: center;
+
+}
+
+.fruit-item {
+  border: 3px solid rgb(47, 71, 255); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 26px 5px rgba(0,0,0,0.27);
+  padding: 30px;
+  margin: 10px;
+
 }
